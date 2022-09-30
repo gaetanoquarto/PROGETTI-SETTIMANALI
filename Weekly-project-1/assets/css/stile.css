@@ -1,0 +1,178 @@
+/*GENERAL SETTINGS */
+
+body {
+    color: #393d41;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: white;
+    padding: 15px;
+}
+
+h3 {
+    margin: 30px 0px 0px 0px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+/*HEADER*/
+
+header {
+    background-color: black;
+}
+
+header img {
+    width: 30%;
+    padding: 30px;
+}
+
+
+
+/*MAIN*/
+
+/*------BANNER--------*/
+#banner {
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    padding: 30px;
+    background-size: cover;
+}
+
+#banner p {
+
+    margin-top: 30px;
+}
+
+#banner span {
+    padding: 10px 20px;
+    border: 0px solid;
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+#banner a:link {
+    text-decoration: none;
+}
+
+#banner a:visited {
+    text-decoration: none;
+}
+
+/*------MAIN SECTION--------*/
+
+section {
+    padding: 30px;
+}
+
+section div p {
+    margin: 10px 0px 30px 0px;
+}
+
+section img {
+    width: 80%;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#testimonianze {
+    background-color: #e22d0e;
+    color: white;
+}
+
+#testimonianze p {
+    margin: 20px 0 0 0;
+}
+
+cite {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+#testimonianze span {
+    font-size: 0.7em;
+}
+
+/*MAIN - ASIDE */
+
+aside div {
+    border: 1px solid #dee1e3;
+    margin: 30px;
+    box-shadow: 1px 1px 1px #dee1e3, -1px -1px 1px #dee1e3;
+    border-radius: 5px;
+}
+
+aside div img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+aside div p {
+    margin: 10px 10px 30px 10px;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #25a2c3;
+    padding: 30px;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #e22d0e;
+}
+
+footer {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+hr {
+    border-top: 1px solid white;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 50%;
+}
+
+footer p {
+    margin: 30px;
+}
