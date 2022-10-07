@@ -43,6 +43,7 @@ a {
 
 a:link, a:visited {
     text-decoration: none;
+
 }
 /* HEADER */
 header {
@@ -148,6 +149,7 @@ form#contact{
     width: 180px;
     align-self: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 /* ------------PAGE CHI SIAMO -----------*/
