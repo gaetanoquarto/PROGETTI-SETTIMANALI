@@ -9,7 +9,6 @@ document.body.onload = startGame();
 
 // mi serviranno alcune variabili 1. interval 2. una agganciata alla classe find 
 // 3. una agganciata al'id modal 4. una agganciata alla classe timer
-var interval;
 var iconsFind = document.getElementsByClassName("find");
 var timer = document.querySelector('.timer');
 var min=0;
@@ -108,7 +107,7 @@ function displayIcon() {
             }, 700);
         }
     }
-    endGame();
+    finePartita();
 }
 
 // una funzione che calcola il tempo e aggiorna il contenitore sotto
@@ -119,20 +118,20 @@ function tempo(){
          min++;
         } 
     let minutaggio = document.querySelector('.timer');
-    minutaggio.innerText= 'Tempo:' + min + 'min' + sec + 'sec';
+    minutaggio.innerText= `Tempo: ${min} min ${sec} sec`;
     }
      setInterval(function(){
         tempo()
     },1000);
 //una funzione che viene mostrata alla fine quando sono tutte le risposte esatte
-let endgame = document.querySelector('#modal')
-function endGame (){
+
+function finePartita (){
     if(iconsFind.length == 24){
        modal.className = 'active';
     }
-clearInterval(tempo())
+
 let time= document.querySelector('#tempoTrascorso');
-time.innerText= min + 'min' + sec + 'sec';
+time.innerText= `${min} min ${sec} sec`;
 }
 
 // una funzione che nasconde la modale alla fine e riavvia il gioco
